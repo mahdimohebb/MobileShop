@@ -1,0 +1,1 @@
+.dj-nav-vertical.dj-design-default{border:1px solid var(--brdcolor-gray-200)}.dj-nav-vertical.dj-design-default>li:is(.dj-opened,:hover)>a{background-color:var(--bgcolor-gray-200);color:var(--color-gray-700)}.dj-nav-vertical.dj-design-default>li:not(:last-child){border-bottom:1px solid var(--brdcolor-gray-200)}

@@ -1,0 +1,57 @@
+.rtl.brz  .brz-forms2__field:not(.brz-forms2__radio):not(.brz-forms2__checkbox) {
+    text-align: right;
+}
+.rtl.brz.brz:not(.brz-ed) .brz-forms2__field-select .select2-selection__arrow {
+  left: 18px;
+  right: unset;
+}
+.rtl.brz .brz-btn.brz-btn-submit{
+direction: ltr;
+}
+.rtl.brz .brz-carousel > .slick-slider .slick-track{
+   direction: ltr; 
+}
+.rtl.brz .brz-slick-slider__dots li{
+    margin-bottom:unset;
+}
+
+.rtl.brz .brz-slick-slider__dots{
+      left:unset;
+right: calc(50% - 70px);
+}
+.brz .brz-hr{
+    max-width: unset;
+}
+.brz .brz-rich-text .link--external {
+  text-decoration: none !important;
+}
+ 
+.brz-ed .row.content-layout-wrapper.align-items-start{
+    display: block !important;
+} 
+.rtl.brz .brz-posts__wrapper{
+    direction: ltr;
+}
+.rtl.brz .brz-posts__wrapper .brz-wrapper{
+    direction: rtl;
+}
+.rtl.brz .brz-posts__pagination .page-numbers li{
+    margin-bottom:unset;
+}
+.rtl.brz .brz-ed-wrap-block-item .slick-track {
+direction: rtl;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

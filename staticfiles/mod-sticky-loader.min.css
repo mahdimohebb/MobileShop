@@ -1,0 +1,1 @@
+.dj-sticky-loader{position:absolute;inset:70px 0;display:flex;align-items:flex-start;justify-content:center;pointer-events:none;opacity:0}.dj-sticky-loader .dj-loader{position:sticky;top:calc(50% - 15px)}.dj-sticky-loader.dj-loading,.site-content.dj-loading .dj-sticky-loader.dj-content-loader{opacity:1;transition:all .25s ease;--dj-anim-state: running}

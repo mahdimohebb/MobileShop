@@ -1,0 +1,207 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "sitemart-font";
+	src: url("sitemart-font-1-400.woff2") format("woff2");
+}
+
+:root {
+	--dj-header-banner-h: 40px;
+	--dj-text-font: "iranyekan-light", Arial, Helvetica, sans-serif;
+	--dj-text-font-weight: 400;
+	--dj-text-color: #777777;
+	--dj-text-font-size: 14px;
+	--dj-title-font: "iranyekan-bold", Arial, Helvetica, sans-serif;
+	--dj-title-font-weight: 600;
+	--dj-title-color: #242424;
+	--dj-entities-title-font: "iranyekan-medium", Arial, Helvetica, sans-serif;
+	--dj-entities-title-font-weight: 500;
+	--dj-entities-title-color: #333333;
+	--dj-entities-title-color-hover: rgb(51 51 51 / 65%);
+	--dj-alternative-font: "iranyekan-medium", Arial, Helvetica, sans-serif;
+	--dj-widget-title-font: "iranyekan-medium", Arial, Helvetica, sans-serif;
+	--dj-widget-title-font-weight: 600;
+	--dj-widget-title-transform: uppercase;
+	--dj-widget-title-color: #333;
+	--dj-widget-title-font-size: 16px;
+	--dj-header-el-font: "iranyekan-light", Arial, Helvetica, sans-serif;
+	--dj-header-el-font-weight: 700;
+	--dj-header-el-transform: uppercase;
+	--dj-header-el-font-size: 13px;
+	--dj-primary-color: #831aaf;
+	--dj-alternative-color: #fbbc34;
+	--dj-link-color: #333333;
+	--dj-link-color-hover: #242424;
+	--btn-default-bgcolor: #f7f7f7;
+	--btn-default-bgcolor-hover: #efefef;
+	--btn-accented-bgcolor: #5c00b2;
+	--btn-accented-bgcolor-hover: #43007f;
+	--dj-form-brd-width: 1px;
+	--notices-success-bg: #459647;
+	--notices-success-color: #fff;
+	--notices-warning-bg: #E0B252;
+	--notices-warning-color: #fff;
+	--dj-sticky-btn-height: 95px;
+}
+.sitemart-site_front-layered-nav .dj-scroll-content {
+	max-height: 280px;
+}
+div.dj-popup.dj-age-verify {
+	max-width: 500px;
+}
+.dj-popup.dj-promo-popup {
+	background-color: #111111;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left center;
+}
+div.dj-popup.dj-promo-popup {
+	max-width: 800px;
+}
+.page-title-default {
+	background-color: #ffffff;
+	background-image: url(/static/bg-img.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.footer-container {
+	background-color: #0a0a0a;
+	background-image: none;
+}
+div.dj-popup.popup-quick-view {
+	max-width: 920px;
+}
+
+@media (max-width: 1024px) {
+	:root {
+		--dj-header-banner-h: 40px;
+	--dj-sticky-btn-height: 95px;
+	}
+
+}
+
+@media (max-width: 768.98px) {
+	:root {
+		--dj-sticky-btn-height: 42px;
+	}
+
+}
+:root{
+--dj-form-brd-radius: 5px;
+--btn-default-color: #333;
+--btn-default-color-hover: #333;
+--btn-accented-color: #fff;
+--btn-accented-color-hover: #fff;
+--btn-default-brd-radius: 35px;
+--btn-default-box-shadow: none;
+--btn-default-box-shadow-hover: none;
+--btn-accented-brd-radius: 35px;
+--btn-accented-box-shadow: none;
+--btn-accented-box-shadow-hover: none;
+--dj-brd-radius: 0px;
+}
+
+
+
+@font-face {
+	font-family: "iransans";
+	src: url("/static/IRANSansXFaNum-Regular.woff2") format("woff2"), 
+url("/static/IRANSansXFaNum-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "iranyekan-light";
+	src: url("/static/iranyekanweblightfanum.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "iranyekan-bold";
+	src: url("/static/iranyekanwebextraboldfanum.ttf") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "iranyekan-medium";
+	src: url("/static/iranyekanwebboldfanum.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+.main-page-wrapper {
+    margin-top: -40px;
+    padding-top:0;
+}
+.site-content {
+  padding: 0px ;
+	margin: 0px;
+}
+.dj-prefooter {
+  padding: 0px !important;
+}
+.dj-prefooter .container {
+  padding: 0px !important;
+}
+.page-title {
+  margin-bottom: 0px !important;
+}
+.site_front-page .main-page-wrapper .container ,
+.blog .main-page-wrapper .container ,
+.single-post .main-page-wrapper .container{
+  max-width: 95%;
+  margin: auto;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.product-tabs-wrapper .container {
+  max-width: 100% ;
+  padding: 0px !important ;
+}
+.page-title .container {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.error404 .main-page-wrapper {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/*******************************************************************************/
+p {
+  font-size: 16px;
+  line-height: 32px;
+}
+.dj-blog-holder .blog-design-default .post-title {
+  font-size: 30px;
+  line-height: 1.9;
+}
+.dj-blog-holder .blog-design-default .post-title {
+  font-size: 25px;
+  line-height: 1.9;
+}
+/***************اصلاح نقطه های اسلاید و گردونه***********************/
+.brz-slick-slider__dots button{
+ min-height:unset !important;
+}@media (min-width: 1025px) {
+	.dj-blog-holder {
+  max-width: 75%;
+  margin: auto;
+}
+}
+
+@media (max-width: 576px) {
+	.site_front-page .main-page-wrapper .container ,
+.blog .main-page-wrapper .container ,
+.single-post .main-page-wrapper .container{
+  max-width: 90%;
+}
+.product-tabs-wrapper .container {
+	  max-width: 100% !important ;
+  padding: 0px 20px !important ;
+}
+}
+

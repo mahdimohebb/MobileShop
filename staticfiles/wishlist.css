@@ -1,0 +1,41 @@
+.wishlist-items img
+{
+    max-width: none !important;
+}
+footer *{
+    font-family: var(--dj-text-font) !important;
+
+}
+
+@media (min-width: 0px) {
+
+    .custom-container{
+        width: 100%;
+    }
+    .p-title h3{
+        font-size: 11px;
+    }
+}
+@media (min-width: 562px) {
+
+    .custom-container{
+        width: 100%;
+    }
+    .p-title h3{
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    .custom-container{
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .custom-container{
+        width: 60%;
+    }
+}
+
